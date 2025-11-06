@@ -4,6 +4,16 @@ from datetime import datetime, timedelta
 # -------- Level 1 --------
 # TODO: Create a function to view all books that are currently available
 # Output should include book ID, title, and author
+for item,key, value in library_books:
+    count=0
+    if count<3:
+        print(f"{Key}:{Value}",end=" ")
+        count+=1
+
+    else:
+        print()
+        count=0
+        break
 
 
 # -------- Level 2 --------

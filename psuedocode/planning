@@ -1,0 +1,6 @@
+Task 1:
+
+Task 1 wants us to just display all the items in the library_books dictionary.
+So to do this we can just print the key value pairs for each book. 
+We can use a for loop and the .items() method to do this. We are only printing the first 3
+key value pairs so we can use a count variable to do that.
