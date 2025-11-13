@@ -87,7 +87,7 @@ def return_book(id_code):
     # Iterate through the list of library books
     for book in library_books:
         # Check if the book ID matches the inputted ID using .lower() to make it case-insensitive
-        if book["ID"].lower()==id_code.lower():
+        if book["id"].lower()==id_code.lower():
             # Set the boolean variable to True since the book is found
             in_list=True
             # Mark the book as available
@@ -315,7 +315,8 @@ if __name__ == "__main__":
     search_books(term_input)
     id_input=input("Enter in an ID: ")
     checkout_book(id_input)
-    return_book(id_input)
+    return_input=input("Enter in an ID to return: ")
+    return_book(return_input)
     overdue_books()
     library_menu()
     
